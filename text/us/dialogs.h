@@ -2070,30 +2070,25 @@ I'm out training now,\n\
 so come back later.\n\
 //--Koopa the Quick"))
 
-DEFINE_DIALOG(DIALOG_167, 1, 4, 30, 200, _("\
-Princess Toadstool's\n\
-castle is just ahead.\n\
-\n\
-\n\
-Press [A] to jump, [Z] to\n\
-crouch, and [B] to punch,\n\
-read a sign, or grab\n\
-something.\n\
-Press [B] again to throw\n\
-something you're holding."))
+DEFINE_DIALOG(DIALOG_167, 1, 5, 30, 200, _("\
+You're looking for a\n\
+Nom, correct? Well, I\n\
+just saw one right next\n\
+to the amulet I was\n\
+looking for above me.\n\
+Good luck with\n\
+your adventures!"))
 
-DEFINE_DIALOG(DIALOG_168, 1, 5, 30, 200, _("\
-Hey! Knock it off! That's\n\
-the second time you've\n\
-nailed me. Now you're\n\
-asking for it, linguine\n\
-breath!"))
+DEFINE_DIALOG(DIALOG_168, 1, 2, 30, 200, _("\
+I can't get on\n\
+that stupid lamp.\n\
+Maybe a good triple jump\n\
+could get you up there."))
 
-DEFINE_DIALOG(DIALOG_169, 1, 4, 30, 200, _("\
-Keep out!\n\
-That means you!\n\
-Arrgghh!\n\
-\n\
-Anyone entering this cave\n\
-without permission will\n\
-meet certain disaster."))
+DEFINE_DIALOG(DIALOG_169, 1, 2, 30, 200, _("\
+I've lost some of my\n\
+fuzz in this apartment.\n\
+Gather it up for \n\
+me, please.\n\
+I will reward you with\n\
+a Nom if you get it all."))

@@ -296,6 +296,10 @@ u8 sBackgroundMusicDefaultVolume[] = {
     70,  // SEQ_EVENT_CUTSCENE_ENDING
     65,  // SEQ_MENU_FILE_SELECT
     0,   // SEQ_EVENT_CUTSCENE_LAKITU (not in JP)
+    127, // littleroot
+    50, // cave story
+    127, // nicknation
+    127, // marketplace
 };
 
 STATIC_ASSERT(ARRAY_COUNT(sBackgroundMusicDefaultVolume) == SEQ_COUNT,
@@ -2328,7 +2332,7 @@ void func_80320ED8(void) {
  */
 void play_secondary_music(u8 seqId, u8 bgMusicVolume, u8 volume, u16 fadeTimer) {
     if ((sCurrentBackgroundMusicSeqId == SEQUENCE_NONE)
-     || (sCurrentBackgroundMusicSeqId == SEQ_MENU_TITLE_SCREEN)) {
+     || (sCurrentBackgroundMusicSeqId == SEQ_STREAMED_CAVESTORY)) {
         return;
     }
 

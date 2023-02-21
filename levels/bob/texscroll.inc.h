@@ -1,0 +1,13 @@
+extern void scroll_bob_dl_fuzz_mesh_layer_1_vtx_0();
+extern void scroll_bob_dl_monster_fuzz_mesh_layer_1_vtx_0();
+extern void scroll_bob_dl_TV_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_fuzzDEFALT_001_mesh_layer_1_vtx_0();
+extern void scroll_bob_dl_TV_001_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_fuzzDEFALT_002_mesh_layer_1_vtx_0();
+extern void scroll_bob_dl_TV_002_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_fuzzDEFALT_003_mesh_layer_1_vtx_0();
+extern void scroll_bob_dl_TV_003_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_fuzzDEFALT_004_mesh_layer_1_vtx_0();
+extern void scroll_bob_dl_TV_004_mesh_layer_1_vtx_1();
+extern void scroll_bob_dl_TV_005_mesh_layer_1_vtx_1();
+extern void scroll_bob();
